@@ -60,7 +60,7 @@ public class Scratchpad extends Application {
     public void start(Stage primaryStage) throws Exception {
         Scene translation = new Scene(pane);
         primaryStage.setScene(translation);
-        primaryStage.setTitle("'TEST'");
+        primaryStage.setTitle("Pitman Translator");
         primaryStage.show();
         primaryStage.widthProperty().addListener(((observable, oldValue, newValue) -> canvas.setWidth(newValue.doubleValue() - 100)));
         primaryStage.heightProperty().addListener(((observable, oldValue, newValue) -> canvas.setHeight(newValue.doubleValue() - 100)));
