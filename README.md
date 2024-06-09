@@ -1,8 +1,6 @@
 # Pitman-Translator
 An English to Pitman Shorthand translator using the CMULexicon for pronunciation.
 
-[Run commands are here.](Run.md)
-
 ## What is Shorthand?
 Shorthand is an abbreviated symbolic writing method that increases speed and brevity of writing. Historically 
 it has been used to take down speeches and public addresses verbatim during speech, and then is recorded in
@@ -28,7 +26,16 @@ You can compile the code by running `mvn clean install`.
 
 You can run the code by running `java -Djdk.gtk.version=2 -jar target/Pitman-Translator-1.0-SNAPSHOT-jar-with-dependencies.jar`.
 
-**Important notice**:
+### Ubuntu
+
+* [Install JVM](https://docs.aws.amazon.com/corretto/latest/corretto-21-ug/generic-linux-install.html)
+* Install Maven - `sudo apt-get install maven`
+
+Then run from project root with: `./bin/go.sh`
+(Wraps the above commands in single line run script)
+
+## Important notice
+
 The .png images that are used for drawing shorthand are temporary and are for testing purposes only. 
 They have been take from [this](http://www.long-live-pitmans-shorthand.org.uk/index.htm) 
 very nice site that you can visit to learn about shorthand yourself! I highly recommend their resources, 
