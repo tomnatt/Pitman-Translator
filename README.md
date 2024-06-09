@@ -1,6 +1,8 @@
 # Pitman-Translator
 An English to Pitman Shorthand translator using the CMULexicon for pronunciation.
 
+[Run commands are here.](Run.md)
+
 ## What is Shorthand?
 Shorthand is an abbreviated symbolic writing method that increases speed and brevity of writing. Historically 
 it has been used to take down speeches and public addresses verbatim during speech, and then is recorded in
