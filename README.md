@@ -18,6 +18,14 @@ going through the characters.
 This program takes a sentence(At the moment only in English) and displays the Pitman shorthand representation
 of that sentence. 
 
+## How do I run it?
+
+You need Java and Maven installed on your system.
+
+You can compile the code by running `mvn clean install`.
+
+You can run the code by running `java -Djdk.gtk.version=2 -jar target/Pitman-Translator-1.0-SNAPSHOT-jar-with-dependencies.jar`.
+
 **Important notice**:
 The .png images that are used for drawing shorthand are temporary and are for testing purposes only. 
 They have been take from [this](http://www.long-live-pitmans-shorthand.org.uk/index.htm) 
